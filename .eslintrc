@@ -1,0 +1,16 @@
+{
+    "parser"    : "babel-eslint",
+    "extends"   : [
+        "standard",
+        "standard-react"
+    ],
+    "env"   : {
+        "browser"   : true
+    },
+    "rules": {
+        "semi" : [2, "never"]
+    },
+    "plugins": [
+        "react"
+    ]
+}
